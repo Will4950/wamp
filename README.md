@@ -85,17 +85,27 @@ To create the app, we'll need to add some quick info.  Add in the following:
 
 Click the button next to `Event Subscriptions` to enable subscriptions, then Click **+ Add new event subscription**.  Before we add events, we'll need to enter some quick info.  Add in the following:
 1. *Subscription Name*
-2. *Event notification endpoint URL
+2. *Event notification endpoint URL*
 
 > Remember: we copied the Event notification endpoint URL to the clipboard in the ngrok setup.
 
-With that info complete, click `Add Events`.  In the Event Types window we want to enable presence status updates.  Click `User Activity`, then select `User's presence status has been updated`.  If you would like to add your own event handlers, select any additional events here. Click `Done` when finished.
+With that info complete, click `Add Events`.  
+
+In the Event Types window we want to enable presence status updates.  
+
+Click `User Activity`, then select `User's presence status has been updated`.  
+
+If you would like to add your own event handlers, select any additional events here. 
+
+Click `Done` when finished.
 
 With all the info collected now, click `Save`. Click `Continue` and activate the app.
 
 ## Update verification token
 
-On the `Feature` tab for your Webhook Only app, copy and paste the `Verification Token` to your `.env` file.  Example: ```VERIFICATION_TOKEN=RrLCDdAUTAO4955kKZwH1g```.
+On the `Feature` tab for your Webhook Only app, copy and paste the `Verification Token` to your `.env` file.  
+
+Example: ```VERIFICATION_TOKEN=RrLCDdAUTAO4955kKZwH1g```.
 
 # Philips Hue Bridge API Token
 
@@ -119,7 +129,9 @@ Copy this token and place it in your `.env` file.  Example: ```HUE_TOKEN=7fbb0cd
 
 Enter the IP Address of your Philips Hue Bridge in your `.env` file.  Example: ```HUE_BRIDGE=0.0.0.0```.
 
-If you have multiple lights connected to your Philips Hue Bridge, specify that in your `.env` file.  The default is light ```1```.  Example: ```HUE_LIGHTID=1```.
+If you have multiple lights connected to your Philips Hue Bridge, specify that in your `.env` file.  The default is light ```1```.  
+
+Example: ```HUE_LIGHTID=1```.
 
 # Start the Express server
 
