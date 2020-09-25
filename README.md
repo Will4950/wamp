@@ -171,4 +171,4 @@ If your lamp is off and not responding, turn it on first via the Hue mobile app.
 
 None :)  Please ping me with any discussion!
 
-For information on creating your own event handlers see: [CREATE.MD](CREATE.MD)
+For information on creating your own event handlers see: [CREATE.md](CREATE.md)
