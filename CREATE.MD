@@ -63,7 +63,7 @@ In our Philips Hue demo, there are 3 main files in use:
 
 This is where we process Webhook events.
 
-### [src/handlers/presence_status_upadted.js](src/handlers/presence_status_upadted.js)
+### [src/handlers/presence_status_updated.js](src/handlers/presence_status_updated.js)
 
 This is the code for the user.presence_status_updated event.
 
