@@ -3,10 +3,10 @@ const hue = require('src/config').hue;
 const logger = require('src/logger');
 const hue_put = require('src/modules/hue_put');
 
-module.exports = (state) => {
-    logger.debug('handlers | ' + path.parse(__filename).name + ' | ' + state);
+module.exports = (payload) => {
+    logger.debug('handlers | ' + path.parse(__filename).name + ' | ' + JSON.stringify(payload));
     let data;
-    switch (state){
+    switch (payload.object.presence_status){
         case 'Available':
             data = {on: true, sat: hue.SAT_HIGH, bri: hue.g_BRI, hue: hue.COLOR_GREEN};
             break;
