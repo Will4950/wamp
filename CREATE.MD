@@ -32,6 +32,22 @@ switch(req.event){
 
 Save the file and restart the Express server.  
 
+### Update [Event Subscriptions](https://marketplace.zoom.us/docs/guides/tools-resources/webhooks#event-subscriptions)
+
+From the manage section of the Zoom Marketplace , click your Webhook Only application.
+
+Click `Feature` on the left.
+
+Expand `Event Subscriptions` and click the *Pencil* icon next to your event subscription.
+
+Under `Event types`, click the gray circle marked *1 events added*.
+
+Click 'User Activity', then select `User has signed in`.
+
+Click `Done`. Click `Save`
+
+### Demo
+
 Sign in to the Zoom application.  You should see a debug message in the console and log with your email address.  
 
 Congrats!
