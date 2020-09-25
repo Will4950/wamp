@@ -17,7 +17,7 @@ Expand `Event Subscriptions` and click the *Pencil* icon next to your event subs
 
 Under `Event types`, click the gray circle marked *1 events added*.
 
-Click 'User Activity', then select `User’s personal notes have been updated`.
+Click `User Activity`, then select `User’s personal notes have been updated`.
 
 Click `Done`. Click `Save`
 

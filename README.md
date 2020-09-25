@@ -1,3 +1,4 @@
+![wamp](wamp.png)
 # Will's Alert Management Program! (WAMP!)
 
 Will's Alert Management Program! (WAMP!) is a node.js express application Zoom Webhooks events handler.  This is a simple app that demonstrates how easy it is to use Zoom Webhooks to fire off events.
