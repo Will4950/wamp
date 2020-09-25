@@ -14,6 +14,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Setup app locally
 
+Assuming macOS 10.15+.
+
 Clone and install the app and it's dependencies. We'll be using [Express](https://www.npmjs.com/package/express) for a basic Node.js server, [dotenv](https://www.npmjs.com/package/dotenv) for our credentials, and [winston](https://www.npmjs.com/package/winston) for logging. 
 
 ```bash
@@ -54,7 +56,7 @@ Download and install ngrok, then follow the steps to connect your account.
 Run ngrok on the same localhost port (4000): 
 
 ```bash
-~/./ngrok http 4000
+~/Applications/ngrok http 4000
 ```
 
 This will generate a forwarding link. Copy this and save it for the next step. 
