@@ -47,7 +47,7 @@ Congrats!
 
 In our Philips Hue demo, there are 3 main files in use:
 1. ```src/events.js```
-2. ```src/handlers/user.presence_status_upadted.js```
+2. ```src/handlers/user.presence_status_updated.js```
 3. ```src/modules/hue_put.js```
 
 ### [src/events.js](src/events.js)
