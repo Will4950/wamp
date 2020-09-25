@@ -8,7 +8,6 @@ const error_404 = function(req, res, next){
     res.sendStatus(404);
 }
 
-//index
 app.get('/', (req, res) => {
     res.send('OK');
 });
@@ -31,7 +30,6 @@ app.post('/', (req, res) => {
   
 });
 
-//404 
 app.use(error_404);
 
 

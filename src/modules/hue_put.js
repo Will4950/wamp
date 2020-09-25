@@ -25,6 +25,10 @@ module.exports = (data) => {
         });
     });
 
+    req.on('error', (err) => {
+        logger.error('modules | ' + path.parse(__filename).name + ' | ' + err);
+    });
+
     var body = JSON.stringify(data);
     req.write(body);
     req.end();
