@@ -153,3 +153,12 @@ npm start
 
 The app should now be running.  Test it by changing your presence status.  Your Philips Hue light should change with it.
 
+## Troubleshooting
+
+The most common problem is when ngrok closes and a new notification endpoint URL is generated.  Verify this is set correctly in `Event Subscriptions`.
+
+If your lamp is off and not responding, turn it on first via the Hue mobile app.  Do not turn off the lamp with the physical button.  After ~20 minutes it will stop responding to API requests from the Hue Bridge.
+
+### Support
+
+None :)  Please ping me with any discussion!
