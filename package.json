@@ -1,6 +1,6 @@
 {
   "name": "wamp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Will's Alert Management Program!",
   "main": "wamp.js",
   "scripts": {
@@ -16,6 +16,6 @@
     "winston": "^3.2.1"
   },
   "repository": {
-    "url": "https://github.com/will4950/bonobo"
+    "url": "https://github.com/will4950/wamp"
   }
 }

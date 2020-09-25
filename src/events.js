@@ -1,5 +1,3 @@
-const path = require('path');
-const fs = require("fs");
 const logger = require('src/logger');
 
 const presence_status_updated = require('src/handlers/presence_status_updated');
