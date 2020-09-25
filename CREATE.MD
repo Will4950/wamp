@@ -24,7 +24,7 @@ switch(req.event){
         logger.debug('event | ' + req.event + ' | ' + req.payload.object.presence_status);
         presence_status_updated(req.payload.object.presence_status);
         break;
-    case 'user.signed_in'
+    case 'user.signed_in':
         logger.debug('event | ' + req.event + ' | ' + req.payload.object.email);
         break;
 }
