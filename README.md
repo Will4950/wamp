@@ -7,6 +7,8 @@ Will's Alert Management Program! (WAMP!) is a node.js express application Zoom W
 
 These instructions will get you a copy of the project up and running on your local machine.  The current demo uses the user.presence_status_updated event to change the color of a Philips Hue lamp.  This code could be easily expanded to include more events.
 
+> For information on creating your own event handlers see: [CREATE.md](CREATE.md)
+
 **Prerequisites:**
 * [Zoom account](https://zoom.us)
 * [Zoom Marketplace Account](https://marketplace.zoom.us/docs/guides)
