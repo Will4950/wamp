@@ -10,7 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 * [Zoom account](https://zoom.us)
 * [Zoom Marketplace Account](https://marketplace.zoom.us/docs/guides)
 * [Node.js 8+](https://nodejs.org/)
-* [Philips Hue Bridge](https://www.philips-hue.com/en-us/p/hue-bridge/046677458478)
+* [Philips Hue Bridge](https://www.philips-hue.com/en-us/p/hue-bridge/046677458478) (optional)
+
+>Note:  If you do not have a Philips Hue Bridge that's ok!  You can still see the events firing in the console and log file.  Skip those steps in the setup guide below.
 
 ## Setup app locally
 
@@ -156,6 +158,8 @@ npm start
 ```
 
 The app should now be running.  Test it by changing your presence status.  Your Philips Hue light should change with it.
+
+If you do not have a Philips Hue Bridge - NO WORRIES!  You can still see the events firing in the console and log.
 
 ## Troubleshooting
 
