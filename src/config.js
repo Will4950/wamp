@@ -10,6 +10,9 @@ config.VERIFICATION_TOKEN = process.env.VERIFICATION_TOKEN;
 config.HUE_TOKEN = process.env.HUE_TOKEN;
 config.HUE_BRIDGE = process.env.HUE_BRIDGE;
 config.HUE_LIGHTID = process.env.HUE_LIGHTID || 1;
+config.TRIGGER_TOKEN = process.env.TRIGGER_TOKEN;
+config.TRIGGER_PATH = process.env.TRIGGER_PATH;
+config.TRIGGER_AUTH = process.env.TRIGGER_AUTH;
 
 config.log = {};
 config.log.dir = process.env.LOG_DIR || 'logs';

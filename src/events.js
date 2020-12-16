@@ -1,5 +1,6 @@
 const fs = require("fs");
 const logger = require('src/logger');
+const chat_post = require('src/modules/chat_post');
 
 module.exports = (req) => {
     logger.info('event | processing | ' + req.event);
@@ -12,10 +13,11 @@ module.exports = (req) => {
             } else {
                 logger.warn('event | ' + req.event + ' | no event handler');
             }
-
         } else {
             logger.error('event | ' + req.event + ' | no payload object');
         }        
+    } else if (typeof req.token != 'undefined') {
+        chat_post(req);
     } else {
         logger.error('event | ' + req.event + ' | no payload');
     }
