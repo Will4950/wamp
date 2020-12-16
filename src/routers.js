@@ -37,12 +37,11 @@ app.post('/trigger', (req, res) => {
         logger.debug('trigger | body | ' + JSON.stringify(req.body));  
         events(req.body);
     } else {
+        logger.debug('trigger | headers | ' + JSON.stringify(req.headers));
         res.status(403).end('Forbidden');
         logger.error('trigger | invalid authorization');
     }
 });
 
-
 app.use(error_404);
-
 

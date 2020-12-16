@@ -2,6 +2,7 @@ const path = require('path');
 const hue = require('src/config').hue;
 const logger = require('src/logger');
 const hue_put = require('src/modules/hue_put');
+const chat_post = require('src/modules/chat_post');
 
 module.exports = (payload) => {
     logger.debug('handlers | ' + path.parse(__filename).name + ' | ' + JSON.stringify(payload));
@@ -21,4 +22,5 @@ module.exports = (payload) => {
     }
     logger.debug('handlers | ' + path.parse(__filename).name + ' | data | ' + JSON.stringify(data));
     hue_put(data);    
+    chat_post(payload.object);
 }
